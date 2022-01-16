@@ -1,0 +1,45 @@
+/*
+    Random Quote Machine
+    CSS File
+    @author Ulysse Valdenaire
+    16/01/2022
+*/
+
+:root {
+    --main-color: rgb(202, 75, 75);
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+.box {
+    height: 100vh;
+}
+
+a {
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: var(--main-color);
+}
+
+#quote-box {
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+#text {
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+#author {
+    color: var(--main-color);
+}
+
+.blue {
+    background: blue;
+}
