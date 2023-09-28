@@ -1,47 +1,43 @@
-<!--
-    Random Quote Machine
-    HTML File
-    @author Ulysse Valdenaire
-    16/01/2022
--->
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Random Quote Machine</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="box container">
-        <div class="row align-items-center h-100">
-            <div class="col-8 mx-auto" id="quote-box">
-                <div id="text"></div>
-                <p id="author" class="text-right"></p>
-                <div class="row">
-                    <div class="col-6">
-                        <button class="btn float-left">
+      <div class="row align-items-center h-100">
+        <div class="col-8 mx-auto" id="quote-box">
+          <div id="text"></div>
+          <p id="author" class="text-right"></p>
+          <div class="row">
+            <div class="col-6">
+              <button class="btn float-left">
                 <a
                   id="tweet-quote"
                   href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22The%20battles%20that%20count%20aren%E2%80%99t%20the%20ones%20for%20gold%20medals.%20The%20struggles%20within%20yourself%E2%80%93the%20invisible%20battles%20inside%20all%20of%20us%E2%80%93that%E2%80%99s%20where%20it%E2%80%99s%20at.%22%20Jesse%20Owens"
                   >Twitter</a
                 >
               </button>
-                    </div>
-                    <div class="col-6">
-                        <button class="btn float-right" id="new-quote">New-quote</button>
-                    </div>
-                </div>
             </div>
+            <div class="col-6">
+              <button class="btn float-right" id="new-quote">New-quote</button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
-
+  </body>
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </html>
